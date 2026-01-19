@@ -32,10 +32,17 @@ The goal of this project is to transform raw production data into actionable ins
 
 The dataset contains historical oil production records with the following key fields:
 
-* `year` – Production year
-* `state` – Producing state
-* `volume` – Oil production volume
-* `land_category` – Onshore or Offshore production classification
+*  `Production Date`: Production date (month and year of record)
+*  `Land Class`: Federal or Native American ownership.
+*  `Land Category`: Type of production location (onshore or offshore site).
+*  `State`: U.S state (blank for offshore).
+*  `County`: County name (blank for offshore).
+*  `FIPS Code`: County FIPS code.
+*  `Offshore Region`: Offshore area: Alaska, Gulf or Pacific (blank for onshore).
+*  `Commodity`: Oil (bbl) or Gas (Mcf).
+*  `Disposition Code`: Numeric code for disposition type.
+*  `Disposition Description`: Text describing disposition
+*  `Volume`: Volume of oil produced.
 
 ---
 
